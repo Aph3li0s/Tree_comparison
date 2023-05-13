@@ -11,7 +11,7 @@ int main() {
     for (int i = 0; i < dataset; i++){
         RBTree<int> rbt;
         fout.open("../Output/RBT_height.txt", std::ios_base::app);
-        fin.open("../Input/input"+std::to_string(i)+".txt");
+        fin.open("../Datasets/input"+std::to_string(i)+".txt");
         for (int j = 0; j < 1e6; j++){
             int x; 
             fin >> x;

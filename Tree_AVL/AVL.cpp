@@ -14,7 +14,7 @@ signed main() {
     for (int i = 0; i < dataset; i++){
 	    AVLTree<int> avl;
         fout.open("../Output/AVL_height.txt", std::ios_base::app);
-        fin.open("../Input/input"+std::to_string(i)+".txt");
+        fin.open("../Datasets/input"+std::to_string(i)+".txt");
         for (int j = 0; j < 1e6; j++){
             int x; 
             fin >> x;
